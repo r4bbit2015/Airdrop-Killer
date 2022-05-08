@@ -24,5 +24,6 @@ Fourth round of screening
 2.Check if the "to" address in the contract log has the same number of airdrops
 
 # Document Description
-The length of 66 in the file is the transaction hash of the above address
 validation_address-part1.txt
+The length of 66 in the file is the transaction hash of the above address
+The number of validation addresses is 705, and the number of available airdrops is 905444
