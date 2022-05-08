@@ -2,6 +2,7 @@
 Fun games
 
 ## Strategy 1
+
 The first round of screening
 1. whether the first From address is the contract address
 2. The transaction record is less than 20
@@ -18,6 +19,7 @@ Fourth round of screening
 2.Analyze the transaction records between them to determine if they are Sybil Attacker
 
 ## Strategy 2
+
 1.Check the internal transactions in the address to determine if the contract address for the bulk transfer was called
 2.Check if the "to" address in the contract log has the same number of airdrops
 
