@@ -30,12 +30,15 @@ The verified address is stored in "validation_address-part1.txt"
 The address in part2 is stored in the "address_hash_info-1.txt " file  
 The verified address is stored in "validation_address-part2.txt"  
 
-## validation_address-part1.txt    
+## validation_address-part1.txt - validation_address-part2.txt 
+File collated after the second airdrop qualification using validation_address.py
 The length of 66 in the file is the transaction hash of the above address   
+
+validation_address-part1.txt  
 Address number:705  
 Total number of airdrops:905444
 
-## validation_address-part2.txt  
+validation_address-part2.txt  
 Address number:2187   
 Total number of airdrops:2089573.71
 
