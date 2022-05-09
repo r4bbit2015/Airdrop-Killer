@@ -32,7 +32,15 @@ The verified address is stored in "validation_address-part2.txt"
 
 validation_address-part1.txt    
 The length of 66 in the file is the transaction hash of the above address   
-The number of validation addresses is 705, and the number of available airdrops is 905444  
+Address number:705  
+Total number of airdrops:905444
 
 validation_address-part2.txt  
+Address number:2187   
+Total number of airdrops:2089573.71
+
+
+internal_ts-1-32335.txt
+Use check_internam_ts.py to detect addresses that have used the Disperse.app type, internal transactions, from the 30,000 addresses
+
 
