@@ -30,10 +30,26 @@ The verified address is stored in "validation_address-part1.txt"
 The address in part2 is stored in the "address_hash_info-1.txt " file  
 The verified address is stored in "validation_address-part2.txt"  
 
-## validation_address-part1.txt - validation_address-part2.txt 
-File collated after the second airdrop qualification using validation_address.py
+
+
+
+## check_internal_ts.py - internal_ts-1-32335.txt  
+Use check_internam_ts.py to detect addresses that have used the Disperse.app type, internal transactions, from the 30,000 addresses
+The output file is internal_ts-1-32335.txt  
+
+## check_internal_ts_log.py - validation_address-part1.txt - validation_address-part2.txt 
+Check if the address is eligible for airdrop by hash
+Those with more than 20 airdrops in the same hash are filtered out, and the output files are validation_address-part1.txt and validation_address-part2.txt
+## validation_address.py -validation_address-part1.txt   - validation_address-part2.txt  
+Second check to verify that the address in the validation_address-part file is eligible for airdrop, and the number of airdrops
+The output files are validation_address-part1.txt and validation_address-part2.txt
+
+
+
+## File format
 The length of 66 in the file is the transaction hash of the above address   
 
+# How many attacks did I find?
 validation_address-part1.txt  
 Address number:705  
 Total number of airdrops:905444
@@ -43,7 +59,6 @@ Address number:2187
 Total number of airdrops:2089573.71
 
 
-## internal_ts-1-32335.txt  
-Use check_internam_ts.py to detect addresses that have used the Disperse.app type, internal transactions, from the 30,000 addresses
+
 
 
