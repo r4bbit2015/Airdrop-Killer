@@ -37,10 +37,10 @@ The verified address is stored in "validation_address-part2.txt"
 Use check_internam_ts.py to detect addresses that have used the Disperse.app type, internal transactions, from the 30,000 addresses
 The output file is internal_ts-1-32335.txt  
 
-## check_internal_ts_log.py - validation_address-part1.txt - validation_address-part2.txt 
+## check_internal_ts_log.py - address_hash_info-1.txt - address_hash_info-2.txt
 Check if the address is eligible for airdrop by hash
-Those with more than 20 airdrops in the same hash are filtered out, and the output files are validation_address-part1.txt and validation_address-part2.txt
-## validation_address.py -validation_address-part1.txt   - validation_address-part2.txt  
+Those with more than 20 airdrops in the same hash are filtered out, and the output files are address_hash_info-1.txt  and address_hash_info-2.txt
+## validation_address.py - validation_address-part1.txt - validation_address-part2.txt  
 Second check to verify that the address in the validation_address-part file is eligible for airdrop, and the number of airdrops
 The output files are validation_address-part1.txt and validation_address-part2.txt
 
